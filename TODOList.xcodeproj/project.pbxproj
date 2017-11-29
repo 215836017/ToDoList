@@ -14,6 +14,7 @@
 		0340DC711FCDB01500E0ECDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0340DC6F1FCDB01500E0ECDB /* LaunchScreen.storyboard */; };
 		0340DC7C1FCDB01500E0ECDB /* TODOListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0340DC7B1FCDB01500E0ECDB /* TODOListTests.swift */; };
 		0340DC871FCDB01500E0ECDB /* TODOListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0340DC861FCDB01500E0ECDB /* TODOListUITests.swift */; };
+		0340DC951FCEF6C000E0ECDB /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0340DC941FCEF6C000E0ECDB /* TodoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0340DC821FCDB01500E0ECDB /* TODOListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TODOListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0340DC861FCDB01500E0ECDB /* TODOListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOListUITests.swift; sourceTree = "<group>"; };
 		0340DC881FCDB01500E0ECDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0340DC941FCEF6C000E0ECDB /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				0340DC661FCDB01500E0ECDB /* AppDelegate.swift */,
+				0340DC941FCEF6C000E0ECDB /* TodoModel.swift */,
 				0340DC681FCDB01500E0ECDB /* ViewController.swift */,
 				0340DC6A1FCDB01500E0ECDB /* Main.storyboard */,
 				0340DC6D1FCDB01500E0ECDB /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0340DC951FCEF6C000E0ECDB /* TodoModel.swift in Sources */,
 				0340DC691FCDB01500E0ECDB /* ViewController.swift in Sources */,
 				0340DC671FCDB01500E0ECDB /* AppDelegate.swift in Sources */,
 			);
