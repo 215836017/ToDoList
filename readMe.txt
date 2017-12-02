@@ -20,3 +20,10 @@ git push -u origin master
 2. 尝试了几种基本的Cell(Android中Item)的布局
 
 2017.11.29
+
+
+1. 实现了自定义的Item布局，但是在调整Item布局的高度时无效，具体的解决方法还没有找到
+
+2. TableView中显示的数量是数组的大小
+
+2017.12.02
